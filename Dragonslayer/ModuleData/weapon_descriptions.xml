@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WeaponDescriptions>
+  <WeaponDescription id="Dragonslayer"
+                     weapon_class="TwoHandedSword"
+                     item_usage_features="twohanded:block:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+      <WeaponFlag value="TwoHandIdleOnMount"/>
+	  <WeaponFlag value="BonusAgainstShield"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="blade"/>
+      <AvailablePiece id="crossguard"/>
+      <AvailablePiece id="handle"/>
+      <AvailablePiece id="pommel"/>
+    </AvailablePieces>
+  </WeaponDescription>
+
+<WeaponDescription id="DragonslayerOneHanded"
+                     weapon_class="OneHandedSword"
+                     item_usage_features="onehanded:block:shield:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+	  <WeaponFlag value="BonusAgainstShield"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="blade"/>
+      <AvailablePiece id="crossguard"/>
+      <AvailablePiece id="handle"/>
+      <AvailablePiece id="pommel"/>
+    </AvailablePieces>
+</WeaponDescription>
+</WeaponDescriptions>

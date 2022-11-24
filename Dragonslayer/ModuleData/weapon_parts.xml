@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+    <CraftingPiece id="blade" name="Dragonslayer Blade" tier="1" piece_type="Blade" mesh="blade" culture="Culture.vlandia" length="134" weight="0.5">
+    <StatContributions armor_bonus="80" />
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_two_handed">
+      <Swing damage_type="Cut" damage_factor="9" />
+    </BladeData>
+     <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="ds_blade" count="6" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="crossguard" name="Dragonslayer Crossguard" tier="1" piece_type="Guard" mesh="crossguard" culture="Culture.vlandia" length="3" weight="0.5">
+    <Materials>
+      <Material id="ds_crossguard" count="2" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="handle" name="Dragonslayer Wrap" tier="1" piece_type="Handle" mesh="handle" culture="Culture.vlandia" length="29" weight="0.5">
+    <Materials>
+      <Material id="ds_handle" count="2" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="pommel" name="Dragonslayer Pommel" tier="1" piece_type="Pommel" mesh="pommel" culture="Culture.vlandia" length="7" weight="0.5">
+    <Materials>
+      <Material id="ds_pommel" count="1" />
+    </Materials>
+  </CraftingPiece>
+</CraftingPieces>
